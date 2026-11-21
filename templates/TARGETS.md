@@ -28,10 +28,11 @@ Only companies they asked you to watch. Do not import someone else's list.
 
 Default sources, plus any they prefer:
 
-- LinkedIn jobs
-- Company career pages they name
-- Common application hosts (Greenhouse, Ashby, Lever, Workday, and others that fit their field)
-- Industry boards or associations they use:
+- Indeed and LinkedIn jobs
+- Career pages of companies they name, and big employers in their field and area (for example hospitals and health systems, school districts, universities, local and state government)
+- Government job sites (USAJOBS, state and local job boards)
+- Company application pages (Workday, Greenhouse, Lever, iCIMS, and others that fit their field)
+- Industry job boards or associations they use:
 
 ## Anti-targets
 
@@ -43,7 +44,7 @@ Companies, industries, or posting patterns to skip:
 
 - Prefer postings first published in the last 21 days, unless they set a different window
 - No daily application quota
-- No minimum queue size
+- No minimum shortlist size
 
 ## Notes for scouts
 

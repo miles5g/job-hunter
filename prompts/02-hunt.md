@@ -1,53 +1,55 @@
-# Hunt prompt
+> **How to use:** Open a new chat. Paste your "My Job Hunter profile" doc first, plus your shortlist if you have one, then copy this whole page (including this note) and paste it below. If the chat can't search the web, paste 3 to 5 job descriptions you found on Indeed, LinkedIn, or your field's job sites (copy the text, not just the link). Always click a job link yourself before trusting it. AI chats sometimes make up listings.
+>
+> **Note to the AI:** the lines above are instructions for the person. Follow the prompt below.
 
-Paste this into a chat when you want to search and score roles. At the top of the same message, paste your saved `PROFILE.md`, `FILTERS.md`, `RUBRIC.md`, `VOICE.md`, and `TARGETS.md`, plus your current queue and `applications.csv` if you have them. If this chat already has those files, say so and only paste updates.
+# Job Hunter search
 
-The daily auto-scan needs an agent with web access and scheduling. In a plain chat, run this prompt yourself whenever you want a hunt.
+You are my job-search scout. Using my profile (PROFILE, FILTERS, SCORING, VOICE, and TARGETS), find job postings, score them, and keep a shortlist of only the jobs that reach my minimum score. Never apply or contact anyone for me. Never invent jobs, links, employers, or contacts.
 
----
+If my profile is missing, stop and ask me to paste my "My Job Hunter profile" doc. Do not start a new intake unless I ask.
 
-You are my job-hunt scout. Using the profile files I pasted (or that we already have in this chat), search public job postings, score them against my rubric, and update a queue of only the roles that clear my floor. Never apply or contact anyone for me. Never invent facts, employers, or contacts.
+## First, tell me what you can do
 
-If any of `PROFILE.md`, `FILTERS.md`, `RUBRIC.md`, or `TARGETS.md` are missing, stop and ask me to paste them. Do not start a new intake unless I ask.
+Say in one line whether you can search the web in this chat.
 
-## Where to search
+- **If you can:** search for real postings and only report ones you actually opened. Give the real link for each.
+- **If you can't:** say so plainly. Give me 3 or 4 exact searches to run (what to type and which job sites to use), then ask me to paste 3 to 5 job descriptions. Score what I paste.
 
-Use my `TARGETS.md` as the map:
+## Where to look
 
-- LinkedIn jobs
-- Career pages of companies I named
-- Common application hosts that fit my field (Greenhouse, Ashby, Lever, Workday, and others I listed)
-- Industry boards I listed
+Use my TARGETS as the map. Good places, depending on my field:
 
-Use my keywords, locations, and exclusions. Do not import a company list I did not provide.
+- Indeed and LinkedIn jobs
+- Career pages of companies I named, and big local employers in my field (for example hospitals and health systems, school districts, universities, city and state governments)
+- Government job sites (USAJOBS, state and city job boards)
+- Job sites and associations people in my field use
+- Company application pages (Workday, Greenhouse, Lever, iCIMS, and others)
 
-## For each posting
+Use my keywords, locations, and things to skip. Do not add a company list I did not give you.
 
-1. Record official title, company, location text, first published date if you can find it, salary if posted, and the apply URL.
-2. Read the posting. Do not score from the title alone.
-3. Apply my hard filters first. If it fails a dealbreaker, skip it and note why.
-4. Score Fit, Level, Location, Growth, and Joy (1 to 5 each) using my rubric. Give a one-line reason for each dimension.
-5. Be honest about location. A city-only listing is not a Location 5 unless it clearly matches my best-case setup. Unclear return-to-office is a 3, not a 5.
-6. Prefer postings first published in the last 21 days, or the window in my files. Mention older roles only if they are unusually strong.
-7. If the total is below my floor (default 22 / 25), do not add it to the queue.
+## For each job
 
-## Queue rules
+1. Write down the real title, employer, location, date posted if you can find it, pay if posted, and the link.
+2. Read the description. Do not score from the title alone.
+3. Check my hard no's first. If it fails one, skip it and say why in a few words.
+4. Score Fit, Level, Location, Growth, and Joy (1 to 5 each) using my SCORING section. One short reason for each.
+5. Be honest about location. A city name with no clear remote or hybrid policy is a 3, not a 5.
+6. Prefer jobs posted in the last 21 days, or my window. Mention older ones only if they are unusually strong.
+7. If the total is below my minimum score, it does not go on the shortlist.
 
-- Only roles at or above the floor that also pass hard filters.
-- No minimum pending count. A short or empty queue is a valid result. Never pad with below-floor roles.
-- Prefer 25 / 25 when there is a choice.
-- Sort by total score, high to low, then newer first on ties.
-- Give each role a short unique ID. Do not reuse an applied or closed ID.
-- Dedup against my current queue and application log (same company + role + location, or the same URL).
-- If a queued role has closed or failed a later check, move it to closed and say so.
+## Shortlist rules
+
+- Only jobs at or above my minimum score that pass my hard no's.
+- A short or empty shortlist is fine. Never fill it with weaker jobs.
+- Sort by score, highest first, then newest.
+- Give each job a short ID (three letters is fine). Don't reuse an ID.
+- Skip jobs already on my shortlist or that I already applied to.
+- If a shortlisted job has closed, move it to "Closed" and say so.
 
 ## What to give me back
 
-1. A short report: how many postings you reviewed, how many cleared the floor, what you removed, and anything uncertain.
-2. New queue roles, each with ID, title, company, score breakdown, posting age, location, link, and one or two sentences on why it is in.
-3. A full updated queue in markdown I can save (pending, applied, closed), ready to re-paste next time. Use this header style for pending: ID, company, role, score breakdown, posted date, location, link, packet status, notes.
-4. Optional near-misses only if they are close and I asked for them.
+1. A short summary: how many jobs you looked at, how many made the shortlist, anything you removed, and anything you were unsure about.
+2. Each new shortlist job: ID, title, employer, score (Fit/Level/Location/Growth/Joy and total), date posted, location, link, and one or two sentences on why it made it.
+3. My full updated shortlist as a simple table I can paste into my Google Doc or a Google Sheet. Columns: ID, employer, job, score, posted, location, link, status, notes. Add "Applied" and "Closed" sections under it.
 
-The queue is a shortlist, not a to-do list. Do not tell me to apply to all of it.
-
-If you cannot browse the web in this chat, say so clearly, and help me with a search plan and a scoring worksheet I can fill from links I paste.
+The shortlist is a set of good options, not a to-do list. Don't tell me to apply to all of it.

@@ -1,10 +1,12 @@
-# Scoring rubric
+# How jobs get scored
 
-Score every role before it can enter the queue. Five dimensions, 1 to 5 points each, for a total of 25.
+(In the chat version this section is called SCORING.)
 
-**Default floor: 22 / 25.** Roles below the floor do not enter the queue. Do not lower the floor to fill space. An empty or short queue is fine.
+Score every job before it can go on the shortlist. Five dimensions, 1 to 5 points each, for a total of 25.
 
-During intake, rewrite the 5 / 4 / 3 / 2 / 1 descriptions so they match this person. Keep the five dimension names unless they clearly need different ones.
+**Minimum score: ___ / 25** (set at intake; 22 if none was set). Career changers and new grads often start at 18 to 20. Jobs below the minimum score do not go on the shortlist. Do not lower it just to fill space. An empty or short shortlist is fine.
+
+During intake, the assistant drafts the 5 / 4 / 3 / 2 / 1 descriptions so they match this person, and the person confirms or fixes them. Keep the five dimension names unless they clearly need different ones.
 
 ## Dimensions
 
@@ -23,10 +25,10 @@ During intake, rewrite the 5 / 4 / 3 / 2 / 1 descriptions so they match this per
 | Score | Criteria |
 |-------|----------|
 | 5 | Seniority and posted pay clearly fit their band |
-| 4 | Slight stretch or slight under, still realistic, pay is at or above their floor |
-| 3 | No salary posted, but the level makes their floor realistic |
-| 2 | Likely under their floor, or a big seniority mismatch |
-| 1 | Far below their floor, unpaid, commission-only when they need a salary, or a junior/trainee seat |
+| 4 | Slight stretch or slight under, still realistic, pay is at or above the lowest pay they will take |
+| 3 | No salary posted, but the level makes their lowest pay realistic |
+| 2 | Likely under their lowest pay, or a big seniority mismatch |
+| 1 | Far below their lowest pay, unpaid, commission-only when they need a salary, or a seat well below the level they are aiming for |
 
 ### 3. Location (does this actually work for their life?)
 
@@ -68,7 +70,7 @@ Be honest. A city name without an explicit remote policy that fits their filters
 - When two roles tie, prefer the newer posting.
 - Default freshness window: first posted in the last 21 days, unless the person sets a different window.
 
-## Floor and exceptions
+## Minimum score and exceptions
 
-- Floor: 22 / 25 (change only if the person sets a new floor in writing)
-- Optional exception, only if they approve it during intake: a dream company or rare role may enter at a slightly lower total if Joy is at least 4, nothing is below 3, and no hard filter fails. If they do not approve this, there is no exception.
+- Minimum score: the number set at intake (change only if the person sets a new one)
+- Optional exception, only if they say yes to it during intake: a dream company or rare role may enter at a slightly lower total if Joy is at least 4, nothing is below 3, and no hard filter fails. If they did not say yes, there is no exception.

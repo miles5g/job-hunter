@@ -1,10 +1,10 @@
-# Job queue
+# Job shortlist (queue)
 
-Score floor: 22 / 25 (change this if you set a different floor).
+Minimum score: ___ / 25 (the number you picked at intake).
 Sort by score, high to low, then newer postings first.
-Only roles at or above the floor, that also pass hard filters, belong here. An empty or short queue is fine. Do not pad it.
+Only jobs at or above your minimum score, that also pass your hard no's, belong here. An empty or short list is fine. Do not pad it.
 
-Copy this file into your own tracker and keep your filled queue private.
+Easiest: keep this table at the bottom of your "My Job Hunter profile" Google Doc, or in a Google Sheet. Keep your filled list private.
 
 ## Pending
 
@@ -14,7 +14,7 @@ Copy this file into your own tracker and keep your filled queue private.
 
 ## Applied
 
-Move a row here when you submit. Also add a line to `applications.csv`. Do not put an applied role back in Pending.
+Move a row here when you submit. Also add a line to your tracking spreadsheet (`applications.csv`). Do not put an applied role back in Pending.
 
 | ID | Company | Role | Score | Applied on | Follow up | Notes |
 |----|---------|------|-------|------------|-----------|-------|

@@ -14,9 +14,9 @@ These are dealbreakers. A role that fails any hard filter does not enter the que
 
 ## Compensation
 
-Write their numbers, not guesses. If they have not given a floor yet, leave this blank and ask before scoring pay.
+Write their numbers, not guesses. If they have not given a lowest acceptable pay yet, leave this blank and ask before scoring pay.
 
-- Salary floor (currency, and whether it is base or total):
+- Lowest pay they will take (currency, and whether it is base or total):
 - A number that would make a role a clear yes:
 - Bonus, equity, or other pay notes:
 - If no salary is posted, treat as:
@@ -42,6 +42,6 @@ Write their numbers, not guesses. If they have not given a floor yet, leave this
 
 ## Soft flags
 
-Keep the role if it still clears the score floor, but mark the concern in the queue notes.
+Keep the job if it still reaches the minimum score, but mark the concern in the shortlist notes.
 
 -

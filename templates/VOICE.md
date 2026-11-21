@@ -20,31 +20,26 @@ Paste a few short emails, messages, or paragraphs they actually wrote. Prefer th
 
 ### Sample 2
 
-## Cover letter defaults
+## Cover letter default
 
-Change these if the person wants something different.
+Change this if the person wants something different.
 
-- Body length: about 320 to 360 words, 4 paragraphs, one Letter page without spilling over
-- Fit check, if you can render a page: Arial or Calibri 11, 1 inch margins, about 1.2 line spacing, exactly one page and at least about 90% full. Extra length should be true detail, not filler
-- Block format: no indents, one blank line between paragraphs, each paragraph is one line in the source file (no mid-paragraph hard wraps)
+- Short, under one page: 3 or 4 short paragraphs, no indents, one blank line between paragraphs
 - Header: their name, location, email, and links from `PROFILE.md`. Do not invent a link or address
-- Greeting: `Hi <Company> team,` unless they prefer a named person
-- Close: `Thanks for considering me. I'd be glad to talk through any of this.` then `Thanks,` then their name
-- Paragraph 1: the job and why they want it, with one specific, true thing about the company
-- Paragraph 2: what they do now, in plain words, only confirmed facts
-- Paragraph 3: two or three real pieces of work, concrete, including any human review step if that is how they work
-- Paragraph 4: an honest gap or stretch plus a true supporting detail, then the close
+- Greeting: `Hi <Company> team,` unless they name a real person
+- Cover: the job and why they want it (with one specific, true thing about the employer), what they do now, one or two real examples, then an honest gap or stretch and a simple close
 
 ## LinkedIn and recruiter notes
 
+- Only to a real, named person. Never invent one or leave a `[Name]` placeholder
 - Connect note: 300 characters max, one specific true reason they fit, signed with their name
 - Follow-up after a connect is accepted: about 500 to 700 characters, one or two real examples, a simple ask for a short chat
-- InMail (for roles scored 23 to 25, if they have InMail): subject under 60 characters, body about 120 to 180 words, addressed to a verified person
-- No markdown, no slang unless it is truly how they write, no hype
+- InMail only if they ask for one: subject under 60 characters, body about 120 to 180 words
+- Plain text, no slang unless it is truly how they write, no hype
 
 ## Banned words and habits
 
-Never use these in covers, form answers, or outreach, unless the person has explicitly reclaimed one of them:
+Never use these in covers, form answers, or outreach, unless the person clearly says one is OK:
 
 - Em dashes, en dashes, or double hyphens (`--`). Use commas, periods, or parentheses
 - passionate
