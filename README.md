@@ -1,59 +1,60 @@
 # Job Hunter
 
-A personal job-search system you can run yourself. It interviews you in depth, hunts for roles, keeps a scored queue of only the best fits, and prepares paste-ready applications in your own voice. It never applies or sends messages for you.
+A free, do-it-yourself job-search kit. It interviews you to figure out what you actually want, helps you find and score roles, and drafts paste-ready applications and follow-ups in your own voice. It never applies or sends anything for you. You stay in control of every submit and every message.
 
-New here? Follow the exact setup steps in [SETUP.md](SETUP.md).
+**Who it's for:** anyone looking for a job who wants a calmer, more organized search: fewer, better-fit applications instead of spraying resumes. No coding needed. If you can copy and paste into ChatGPT or Claude, you can use it.
 
-## What it does
+New here? [SETUP.md](SETUP.md) has step-by-step instructions for both ways to run it.
 
-- **Deep intake interview.** One question at a time, covering your story, what actually drives you, your dealbreakers, how you work best, and how you sound in writing.
-- **Daily hunt.** Search job boards and company career sites, then score each role against your rubric.
-- **Scored queue.** Only roles at or above your floor (default 22 out of 25) stay in the queue. No filler.
-- **Paste-ready packets.** Live form scans, unique answers, and a cover letter only if the form asks for one, written in your voice.
-- **Verified follow-ups.** Recruiter notes and LinkedIn outreach use real, checked contacts. No invented names or emails.
+## Start in 2 minutes
 
-## Two ways to use it
+1. Open [`prompts/01-intake.md`](prompts/01-intake.md) and copy everything in it.
+2. Paste it into a new chat in ChatGPT, Claude, or Gemini. Attach your resume if you have one.
+3. Answer the questions. It asks one at a time.
+4. At the end it writes five short profile files. Save them (the `templates/` folder in a downloaded copy of this repo works, or any private notes folder).
 
-See [SETUP.md](SETUP.md) for the full beginner walkthrough.
+That's it. Next time you want to look for roles or apply, paste the next prompt plus your saved files.
 
-### A. Grok Bot
+## How it works
 
-Create a Grok Bot account, open the Job Hunter template, add or import the bot, connect Gmail, upload your resume, and answer the intake.
+| Step | Prompt | What you get |
+|------|--------|--------------|
+| 1. Intake | [`01-intake.md`](prompts/01-intake.md) | Your profile, filters, scoring rubric, search targets, and a voice guide |
+| 2. Hunt | [`02-hunt.md`](prompts/02-hunt.md) | Roles scored out of 25. Only the ones at or above your floor (default 22) make the queue |
+| 3. Apply | [`03-apply-packet.md`](prompts/03-apply-packet.md) | Paste-ready answers in the form's order, plus a cover letter only if the form asks for one |
+| 4. Follow up | [`04-follow-up.md`](prompts/04-follow-up.md) | Short follow-up and outreach drafts to verified contacts |
+
+Each prompt says at the top which saved files to paste in with it. A plain chat can't run on a schedule, so you run the hunt prompt yourself whenever you want fresh roles.
+
+## Or run it as a Grok Bot
+
+With a Grok Bot, the same workflow runs on its own: a daily hunt, a queue it keeps up to date, and packets and follow-ups drafted for you to review and send. Open the template, add your own copy, connect Gmail, upload your resume, and do the intake. Full steps are in [SETUP.md](SETUP.md).
 
 Template link: https://x.ai/bot/1Bam7NFo7BJ98UjYreRB-
 
-After setup, the bot can run a daily hunt, keep your queue, and draft packets and follow-ups for you to send.
+The `skills/` folder has the instructions the bot uses, so other agents can load them too.
 
-### B. Any AI chat (ChatGPT, Claude, Gemini)
+## What's in the repo
 
-No install. Download this repo as a ZIP, or open the `prompts/` folder, then paste the prompts in order:
+- `SETUP.md` step-by-step setup for both paths
+- `prompts/` copy-and-paste prompts for any AI chat
+- `templates/` blank versions of the profile files the intake fills in (`PROFILE`, `FILTERS`, `RUBRIC`, `TARGETS`, `VOICE`)
+- `tracker/QUEUE_TEMPLATE.md` a simple queue page for scored roles
+- `tracker/applications.csv` a blank application log you can open in Excel or Google Sheets
+- `skills/` agent versions of the intake, hunt, and apply steps
 
-1. `01-intake.md` to build your profile files
-2. `02-hunt.md` when you want to search and score roles
-3. `03-apply-packet.md` when you are ready to apply to a role
-4. `04-follow-up.md` after you apply, or when a recruiter writes back
+## Ground rules it follows
 
-Save the profile files the chat produces (`PROFILE.md`, `FILTERS.md`, `RUBRIC.md`, `VOICE.md`, `TARGETS.md`) into the `templates/` folder, and paste them back in at the start of later chats. The daily auto-scan needs an agent with web access and scheduling, so in a plain chat you run the hunt prompt yourself.
+1. Never applies or sends a message for you.
+2. Never makes up facts, employers, numbers, or contacts.
+3. Checks every draft against your voice guide so it sounds like you, not a chatbot.
+4. Only uses recruiter names and emails that have been verified.
+5. Keeps filler out of the queue. A short queue is fine.
 
-## Files in this repo
+## Keep your stuff private
 
-- `SETUP.md` exact beginner steps for both paths
-- `skills/` instructions a Grok Bot (or another agent) can load
-- `prompts/` self-contained paste-in prompts for a plain chat
-- `templates/` blank versions of the profile files the intake fills in
-- `tracker/QUEUE_TEMPLATE.md` a simple queue page
-- `tracker/applications.csv` a header-only application log
-
-Copy the templates into your own folder and fill them in during intake. Do not commit your filled-in profile, resume, or queue to a shared repo.
-
-## Rules the system always follows
-
-1. Never apply or send for you.
-2. Never invent facts, employers, numbers, or contacts.
-3. Voice-check every draft against your voice file.
-4. Only use recruiter emails and names you have verified.
-5. Keep filler out of the queue.
+Your filled-in profile, resume, and queue are personal. Don't commit them to a public fork.
 
 ## License
 
-Released under the MIT License. See `LICENSE`.
+MIT. See [`LICENSE`](LICENSE).
