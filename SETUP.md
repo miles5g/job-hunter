@@ -4,6 +4,10 @@ Two ways to run it. Path A is a Grok Bot that can hunt on a schedule. Path B wor
 
 The bot never applies or sends messages for you. You stay in control of every submit and every email.
 
+## Before you start: install Simplify
+
+Install [Simplify](https://simplify.jobs), a free Chrome extension that autofills job applications. Make a free account, add the extension to Chrome, and fill in your profile there once (contact info, work history, education, resume). Then when you open a real application form, Simplify fills in the standard fields, and you paste the custom answers from your Job Hunter packet into the rest. You still review and press Submit yourself.
+
 ## A. Grok Bot
 
 1. Create a Grok Bot account if you do not already have one, then sign in.

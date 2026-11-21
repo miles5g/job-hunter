@@ -34,6 +34,8 @@ Template link: https://x.ai/bot/1Bam7NFo7BJ98UjYreRB-
 
 The `skills/` folder has the instructions the bot uses, so other agents can load them too.
 
+Tip: install [Simplify](https://simplify.jobs), a free Chrome extension, so the standard fields on application forms fill in automatically. See [SETUP.md](SETUP.md).
+
 ## What's in the repo
 
 - `SETUP.md` step-by-step setup for both paths
