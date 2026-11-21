@@ -1,6 +1,8 @@
-# Job Hunt Copilot
+# Job Hunter
 
 A personal job-search system you can run yourself. It interviews you in depth, hunts for roles, keeps a scored queue of only the best fits, and prepares paste-ready applications in your own voice. It never applies or sends messages for you.
+
+New here? Follow the exact setup steps in [SETUP.md](SETUP.md).
 
 ## What it does
 
@@ -12,27 +14,30 @@ A personal job-search system you can run yourself. It interviews you in depth, h
 
 ## Two ways to use it
 
+See [SETUP.md](SETUP.md) for the full beginner walkthrough.
+
 ### A. Grok Bot
 
-Import the "Job Hunt Copilot" template, connect Gmail, upload your resume, and answer the intake.
+Create a Grok Bot account, open the Job Hunter template, add or import the bot, connect Gmail, upload your resume, and answer the intake.
 
-Template link: coming soon
+Template link: TEMPLATE_LINK
 
 After setup, the bot can run a daily hunt, keep your queue, and draft packets and follow-ups for you to send.
 
 ### B. Any AI chat (ChatGPT, Claude, Gemini)
 
-No install. Open a chat, then paste the prompts in `prompts/` in order:
+No install. Download this repo as a ZIP, or open the `prompts/` folder, then paste the prompts in order:
 
 1. `01-intake.md` to build your profile files
 2. `02-hunt.md` when you want to search and score roles
 3. `03-apply-packet.md` when you are ready to apply to a role
 4. `04-follow-up.md` after you apply, or when a recruiter writes back
 
-Save the profile files the chat produces (`PROFILE.md`, `FILTERS.md`, `RUBRIC.md`, `VOICE.md`, `TARGETS.md`) and paste them back in at the start of later chats. The daily auto-scan needs an agent with web access and scheduling, so in a plain chat you run the hunt prompt yourself.
+Save the profile files the chat produces (`PROFILE.md`, `FILTERS.md`, `RUBRIC.md`, `VOICE.md`, `TARGETS.md`) into the `templates/` folder, and paste them back in at the start of later chats. The daily auto-scan needs an agent with web access and scheduling, so in a plain chat you run the hunt prompt yourself.
 
 ## Files in this repo
 
+- `SETUP.md` exact beginner steps for both paths
 - `skills/` instructions a Grok Bot (or another agent) can load
 - `prompts/` self-contained paste-in prompts for a plain chat
 - `templates/` blank versions of the profile files the intake fills in
