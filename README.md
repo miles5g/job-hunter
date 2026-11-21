@@ -20,7 +20,7 @@ See [SETUP.md](SETUP.md) for the full beginner walkthrough.
 
 Create a Grok Bot account, open the Job Hunter template, add or import the bot, connect Gmail, upload your resume, and answer the intake.
 
-Template link: TEMPLATE_LINK
+Template link: https://x.ai/bot/1Bam7NFo7BJ98UjYreRB-
 
 After setup, the bot can run a daily hunt, keep your queue, and draft packets and follow-ups for you to send.
 

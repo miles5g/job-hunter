@@ -9,9 +9,8 @@ The bot never applies or sends messages for you. You stay in control of every su
 1. Create a Grok Bot account if you do not already have one, then sign in.
 2. Open the Job Hunter template link:
 
-   TEMPLATE_LINK
+   https://x.ai/bot/1Bam7NFo7BJ98UjYreRB-
 
-   (This link will be added when the shareable template is published. If it still says `TEMPLATE_LINK`, ask the person who shared Job Hunter with you for the current template URL.)
 3. Add or import the bot so you have your own copy of Job Hunter. Your copy is private to you.
 4. When the bot asks you to connect Gmail, do that. This is how it can read recruiter mail and help draft follow-ups. It will not send messages unless you later ask it to draft one and you send it yourself.
 5. Upload your resume (and any short writing samples you want it to learn from).
